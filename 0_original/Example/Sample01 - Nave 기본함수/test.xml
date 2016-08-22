@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Config type="Struct">
+	<Global type="Struct">
+		<Title			type="wstring"			value="Login" />
+		<ID			type="uint32"			value="0" />
+		<Port			type="uint32"			value="5820" />
+		<MaxConn			type="uint32"			value="10" />
+		<LogSave			type="uint32"			value="0" />
+		<Version			type="wstring"			value="1.0.0.0" />
+	</Global>
+	<Assist type="Struct">
+		<Port			type="uint32"			value="7000" />
+	</Assist>
+	<WorldMRS type="Struct">
+		<Port			type="uint32"			value="6820" />
+		<MaxWorld			type="uint32"			value="10" />
+	</WorldMRS>
+	<Database type="Struct">
+		<IP			type="wstring"			value="192.168.0.3" />
+		<DBName			type="wstring"			value="User" />
+		<ID			type="wstring"			value="MSGSQL" />
+		<PASS			type="wstring"			value="0508" />
+	</Database>
+</Config>

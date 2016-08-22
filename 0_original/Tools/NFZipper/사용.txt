@@ -1,0 +1,5 @@
+특정 파일을 압축하여 암호화 하는 간단한 툴
+현재 NFIPSec 클래스에서 사용한다.
+
+/e in:c:\AllowIPList.txt out:c:\AllowIPList.bin
+/d in:c:\AllowIPList.bin out:c:\AllowIPList.log

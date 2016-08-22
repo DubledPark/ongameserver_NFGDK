@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nave", "Nave\Nave.vcproj", "{EE77AE3E-D427-4029-8021-4961BE4FE13E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaveTest", "NaveTest\NaveTest.vcproj", "{6C4FDB72-E720-4A0E-9C9C-0E2F88A424E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE77AE3E-D427-4029-8021-4961BE4FE13E} = {EE77AE3E-D427-4029-8021-4961BE4FE13E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaveNet", "NaveNet\NaveNet.vcproj", "{3C2495AB-0052-4E84-90CF-E6641F6F2DAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE77AE3E-D427-4029-8021-4961BE4FE13E} = {EE77AE3E-D427-4029-8021-4961BE4FE13E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaveServer", "NaveServer\NaveServer.vcproj", "{8251B2EA-C823-4581-9DE1-CE584571453F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE77AE3E-D427-4029-8021-4961BE4FE13E} = {EE77AE3E-D427-4029-8021-4961BE4FE13E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaveFramework", "NaveFramework\NaveFramework.vcproj", "{3CE963AE-B89D-4C8B-A512-5B9D8E4CCB78}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE77AE3E-D427-4029-8021-4961BE4FE13E} = {EE77AE3E-D427-4029-8021-4961BE4FE13E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nave2D", "Nave2D\Nave2D.vcproj", "{EEFC7A1F-82AC-43C2-AFA3-7CFDAB9CC99E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE77AE3E-D427-4029-8021-4961BE4FE13E} = {EE77AE3E-D427-4029-8021-4961BE4FE13E}
+		{3CE963AE-B89D-4C8B-A512-5B9D8E4CCB78} = {3CE963AE-B89D-4C8B-A512-5B9D8E4CCB78}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE77AE3E-D427-4029-8021-4961BE4FE13E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE77AE3E-D427-4029-8021-4961BE4FE13E}.Debug|Win32.Build.0 = Debug|Win32
+		{EE77AE3E-D427-4029-8021-4961BE4FE13E}.Release|Win32.ActiveCfg = Release|Win32
+		{EE77AE3E-D427-4029-8021-4961BE4FE13E}.Release|Win32.Build.0 = Release|Win32
+		{6C4FDB72-E720-4A0E-9C9C-0E2F88A424E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C4FDB72-E720-4A0E-9C9C-0E2F88A424E3}.Debug|Win32.Build.0 = Debug|Win32
+		{6C4FDB72-E720-4A0E-9C9C-0E2F88A424E3}.Release|Win32.ActiveCfg = Release|Win32
+		{6C4FDB72-E720-4A0E-9C9C-0E2F88A424E3}.Release|Win32.Build.0 = Release|Win32
+		{3C2495AB-0052-4E84-90CF-E6641F6F2DAB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C2495AB-0052-4E84-90CF-E6641F6F2DAB}.Debug|Win32.Build.0 = Debug|Win32
+		{3C2495AB-0052-4E84-90CF-E6641F6F2DAB}.Release|Win32.ActiveCfg = Release|Win32
+		{3C2495AB-0052-4E84-90CF-E6641F6F2DAB}.Release|Win32.Build.0 = Release|Win32
+		{8251B2EA-C823-4581-9DE1-CE584571453F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8251B2EA-C823-4581-9DE1-CE584571453F}.Debug|Win32.Build.0 = Debug|Win32
+		{8251B2EA-C823-4581-9DE1-CE584571453F}.Release|Win32.ActiveCfg = Release|Win32
+		{8251B2EA-C823-4581-9DE1-CE584571453F}.Release|Win32.Build.0 = Release|Win32
+		{3CE963AE-B89D-4C8B-A512-5B9D8E4CCB78}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CE963AE-B89D-4C8B-A512-5B9D8E4CCB78}.Debug|Win32.Build.0 = Debug|Win32
+		{3CE963AE-B89D-4C8B-A512-5B9D8E4CCB78}.Release|Win32.ActiveCfg = Release|Win32
+		{3CE963AE-B89D-4C8B-A512-5B9D8E4CCB78}.Release|Win32.Build.0 = Release|Win32
+		{EEFC7A1F-82AC-43C2-AFA3-7CFDAB9CC99E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EEFC7A1F-82AC-43C2-AFA3-7CFDAB9CC99E}.Debug|Win32.Build.0 = Debug|Win32
+		{EEFC7A1F-82AC-43C2-AFA3-7CFDAB9CC99E}.Release|Win32.ActiveCfg = Release|Win32
+		{EEFC7A1F-82AC-43C2-AFA3-7CFDAB9CC99E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

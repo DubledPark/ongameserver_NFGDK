@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ks_c_5601-1987"?>
+<Config type="Struct">
+	<Global type="Struct">
+		<Title		type="wstring"		value="Tester" />
+		<ID			  type="uint32"			value="0" />
+		<Port			type="uint32"			value="5820" />
+    <MaxConn	type="uint32"			value="10" />
+    <LogSave	type="uint32"			value="0" />
+    <Version	type="wstring"		value="1.0.0.0" />
+  </Global>
+</Config>

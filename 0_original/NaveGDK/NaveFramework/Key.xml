@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<KeyMap type="array">
+	<item type="Input">
+		<Command			type="wstring"			value="Event_LEFT" />
+		<Key			type="wstring"			value="KEY_LEFT" />
+		<ModKey			type="wstring"			value="KEY_NONE" />
+		<State			type="wstring"			value="EKS_DOWN" />
+		<Event			type="int32"			value="0" />
+		<Param			type="float"			value="10.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_RIGHT" />
+		<Key			type="wstring"			value="KEY_RIGHT" />
+		<ModKey			type="wstring"			value="KEY_NONE" />
+		<State			type="wstring"			value="EKS_DOWN" />
+		<Event			type="int32"			value="1" />
+		<Param			type="float"			value="-10.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_UP" />
+		<Key			type="wstring"			value="KEY_UP" />
+		<ModKey			type="wstring"			value="KEY_NONE" />
+		<State			type="wstring"			value="EKS_DOWN" />
+		<Event			type="int32"			value="2" />
+		<Param			type="float"			value="10.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_DOWN" />
+		<Key			type="wstring"			value="KEY_DOWN" />
+		<ModKey			type="wstring"			value="KEY_NONE" />
+		<State			type="wstring"			value="EKS_DOWN" />
+		<Event			type="int32"			value="3" />
+		<Param			type="float"			value="-10.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_JUMPS" />
+		<Key			type="wstring"			value="KEY_SPACE" />
+		<ModKey			type="wstring"			value="KEY_NONE" />
+		<State			type="wstring"			value="EKS_DOWN" />
+		<Event			type="int32"			value="4" />
+		<Param			type="float"			value="31.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_JUMPP" />
+		<Key			type="wstring"			value="KEY_SPACE" />
+		<ModKey			type="wstring"			value="KEY_NONE" />
+		<State			type="wstring"			value="EKS_PRESS" />
+		<Event			type="int32"			value="5" />
+		<Param			type="float"			value="32.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_JUMPE" />
+		<Key			type="wstring"			value="KEY_SPACE" />
+		<ModKey			type="wstring"			value="KEY_NONE" />
+		<State			type="wstring"			value="EKS_UP" />
+		<Event			type="int32"			value="6" />
+		<Param			type="float"			value="33.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_ATTACK" />
+		<Key			type="wstring"			value="KEY_Z" />
+		<ModKey			type="wstring"			value="KEY_NONE" />
+		<State			type="wstring"			value="EKS_UP" />
+		<Event			type="int32"			value="7" />
+		<Param			type="float"			value="50.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_CHAGE" />
+		<Key			type="wstring"			value="KEY_Z" />
+		<ModKey			type="wstring"			value="KEY_LALT" />
+		<State			type="wstring"			value="EKS_PRESS" />
+		<Event			type="int32"			value="8" />
+		<Param			type="float"			value="51.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_DOUBLE" />
+		<Key			type="wstring"			value="KEY_Z" />
+		<ModKey			type="wstring"			value="KEY_X" />
+		<State			type="wstring"			value="EKS_PRESS" />
+		<Event			type="int32"			value="9" />
+		<Param			type="float"			value="100.000000" />
+	</item>
+	<item type="Input">
+		<Command			type="wstring"			value="Event_ALT" />
+		<Key			type="wstring"			value="KEY_LALT" />
+		<ModKey			type="wstring"			value="KEY_NONE" />
+		<State			type="wstring"			value="EKS_DOWN" />
+		<Event			type="int32"			value="10" />
+		<Param			type="float"			value="101.000000" />
+	</item>
+</KeyMap>

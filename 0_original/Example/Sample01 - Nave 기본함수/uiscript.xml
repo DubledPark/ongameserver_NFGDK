@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XMLScript type="XMLScript">
+	<Header type="ScriptItem">
+		<Items type="associative_array">
+			<item type="pair">
+				<key			type="wstring"			value="Height" />
+				<value			type="wstring"			value="0" />
+			</item>
+			<item type="pair">
+				<key			type="wstring"			value="SkinFile" />
+				<value			type="wstring"			value="Config/Dialog1.skin" />
+			</item>
+			<item type="pair">
+				<key			type="wstring"			value="SkinID" />
+				<value			type="wstring"			value="0" />
+			</item>
+			<item type="pair">
+				<key			type="wstring"			value="Title" />
+				<value			type="wstring"			value="타이틀없음" />
+			</item>
+			<item type="pair">
+				<key			type="wstring"			value="Visible" />
+				<value			type="wstring"			value="TRUE" />
+			</item>
+			<item type="pair">
+				<key			type="wstring"			value="Width" />
+				<value			type="wstring"			value="0" />
+			</item>
+			<item type="pair">
+				<key			type="wstring"			value="X" />
+				<value			type="wstring"			value="0" />
+			</item>
+			<item type="pair">
+				<key			type="wstring"			value="Y" />
+				<value			type="wstring"			value="0" />
+			</item>
+		</Items>
+	</Header>
+	<Attribute type="array">
+		<item type="ScriptItem">
+			<Items type="associative_array">
+				<item type="pair">
+					<key			type="wstring"			value="CPoint" />
+					<value			type="wstring"			value="50, 50" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="CRect" />
+					<value			type="wstring"			value="0, 0, 100, 100" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="Height" />
+					<value			type="wstring"			value="200" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="ID" />
+					<value			type="wstring"			value="1000" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="SkinID" />
+					<value			type="wstring"			value="1" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="TYPE" />
+					<value			type="wstring"			value="BUTTON" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="Text" />
+					<value			type="wstring"			value="버튼1번" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="Width" />
+					<value			type="wstring"			value="200" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="X" />
+					<value			type="wstring"			value="0" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="Y" />
+					<value			type="wstring"			value="0" />
+				</item>
+				<item type="pair">
+					<key			type="wstring"			value="float3" />
+					<value			type="wstring"			value="0.100000, 0.200000, 0.300000" />
+				</item>
+			</Items>
+		</item>
+	</Attribute>
+</XMLScript>

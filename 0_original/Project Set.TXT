@@ -1,0 +1,58 @@
+﻿* Sample Project Setting
+
+- 일반
+출력 디렉토리 : 
+../Run
+
+중간 디렉토리 : 
+../Intermediate/$(ProjectName)/$(ConfigurationName)
+
+- 디버깅 
+작업 디렉토리 : ../Run
+
+- C/C++
+일반 -> 추가 포함 디렉토리 :
+../../NaveGDK; ../../NaveGDK/SDK; ../../NaveGDK/SDK/Include;
+
+- 링커
+
+일반 -> 추가 라이브러리 디렉토리 :
+../../NaveGDK/Library; ../../NaveGDK/SDK/Lib;
+
+릴리즈 일때
+- 링커 -> 입력
+추가 종속성 : Nave.lib Client.lib GZip.lib
+
+디버깅일때
+일반 -> 출력 파일 : 
+$(OutDir)\$(ProjectName)_D.exe
+
+- 링커 -> 입력
+추가 종속성 : Nave_D.lib Client_D.lib GZip_D.lib
+
+---------------------------------------------------------------
+* Library Project Setting
+> Debug
+
+- 구성속성 -> 일반
+출력 디렉터리 : ../Library
+중간 디렉터리 : ../Intermediate/$(ProjectName)/$(ConfigurationName)
+구성 형식     : 정적 라이브러리(.lib)
+
+- C/C++
+일반 -> 추가 포함 라이브러리 : ..; ../SDK; ../SDK/Include;
+
+전처리기 : WIN32;_LIB
+코드생성 -> 런타임 라이브러리 : 다중 스레드 DLL(/MD)
+
+디버그일때
+전처리기 : WIN32;_DEBUG;_LIB
+코드생성 -> 런타임 라이브러리 : 다중 스레드 디버그 DLL(/MDd)
+
+- 라이브러리 관리자
+일반 -> 출력 파일 : $(OutDir)\$(ProjectName).lib
+
+디버그일때
+일반 -> 출력 파일 : $(OutDir)\$(ProjectName)_D.lib
+
+일반 -> 추가 라이브러리 디렉터리 : ../Library; ../SDK/Lib;
