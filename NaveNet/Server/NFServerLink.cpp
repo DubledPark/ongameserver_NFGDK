@@ -126,7 +126,7 @@ namespace NaveNetLib {
 			m_Socket = NULL;
 			return false;
 		}
-
+		
 		/////////////////////////////////
 		// 소켓의 성능 최적화를 위한 세팅 
 		INT zero = 0;

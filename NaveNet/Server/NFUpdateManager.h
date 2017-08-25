@@ -23,9 +23,8 @@ namespace NaveNetLib {
 	public:
 		void Add(NFConnection* pUser, NFPacket* pPacket);
 		void Update();
-
+				
 		
-
 	private:
 		enum {
 			// 최대 1024 개의 패킷을 저장할 수 있다.
@@ -39,7 +38,7 @@ namespace NaveNetLib {
 		NFPacket				m_Packet[MaxQueCount];
 
 		/// Sync 객체
-		std::mutex				m_Lock;
+		std::mutex				m_Lock;		
 	};
 
 }

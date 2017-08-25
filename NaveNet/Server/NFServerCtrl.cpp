@@ -470,7 +470,7 @@ namespace NaveNetLib {
 				if (lCompletionKey == IOCP_SHUTDOWN) {
 					break;
 				}
-
+				
 				if (NULL != lpOverlapPlus)
 				{
 					///////////////////////////////////////////////
